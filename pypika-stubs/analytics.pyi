@@ -3,7 +3,9 @@ from typing import Any
 from pypika.terms import (
     AnalyticFunction as AnalyticFunction,
     IgnoreNullsAnalyticFunction as IgnoreNullsAnalyticFunction,
-    WindowFrameAnalyticFunction as WindowFrameAnalyticFunction, Field, Term,
+    WindowFrameAnalyticFunction as WindowFrameAnalyticFunction,
+    Field,
+    Term,
 )
 
 class Preceding(WindowFrameAnalyticFunction.Edge):

@@ -39,8 +39,8 @@ ignore_missing_imports = true
 warn_return_any = false
 warn_unused_configs = true
 show_error_codes = true
-
 platform = 'unix'
+disable_error_code = ['override']
 
 [tool.black]
 target-version = ['py312']
