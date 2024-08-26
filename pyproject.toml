@@ -1,6 +1,6 @@
 [build-system]
-requires = ["flit-core~=3.9"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "pypika-stubs"

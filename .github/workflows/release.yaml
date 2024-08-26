@@ -16,7 +16,9 @@ jobs:
         with:
           python-version: '3.x'
 
-      - run: pipx run flit publish
+      - run: pipx run build
+
+      - run: pipx run twine upload dist/* --disable-progress-bar
         env:
-          FLIT_USERNAME: '__token__'
-          FLIT_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+          TWINE_USERNAME: '__token__'
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
