@@ -28,7 +28,7 @@ jobs:
           run: ""
 
       - name: mypy
-        run: mypy --show-column-numbers rtorrent_rpc
+        run: mypy --show-column-numbers pypika-stubs
 
   pre-commit:
     runs-on: ubuntu-latest
