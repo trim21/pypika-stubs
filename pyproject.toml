@@ -26,7 +26,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     'pre-commit==4.0.1; python_version >= "3.9"',
-    'mypy==1.11.2; python_version >= "3.9"',
+    'mypy==1.13.0; python_version >= "3.9"',
 ]
 
 [project.urls]
